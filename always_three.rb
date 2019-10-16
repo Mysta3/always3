@@ -1,7 +1,11 @@
-puts "Enter a number"
+def always_3
 
-num1 = gets.to_i
+    puts "Enter a number"
 
-puts "Always  #{((((num1 + 5) * 2) - 4) / 2 - num1).to_s}"
+    num1 = gets.to_i
 
+    puts "Always  #{((((num1 + 5) * 2) - 4) / 2 - num1).to_s}"
 
+end
+
+always_3
